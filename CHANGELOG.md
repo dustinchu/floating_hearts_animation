@@ -1,3 +1,8 @@
+## 0.0.3
+
+- Fixed repository validation issues
+- Updated documentation
+
 ## 0.0.2
 
 - Added homepage and repository links
