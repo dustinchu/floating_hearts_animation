@@ -2,6 +2,10 @@
 
 A Flutter package that provides a beautiful floating hearts animation effect when tapped. Perfect for like buttons, favorites, or any interaction that could use some visual flair.
 
+## Demo
+
+![Floating Hearts Animation Demo](https://raw.githubusercontent.com/dustinchu/floating_hearts_animation/main/screenshots/demo.gif)
+
 ## Features
 
 - Customizable floating hearts animation

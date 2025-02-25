@@ -46,19 +46,31 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text(
-              'Tap the heart to see the animation:',
-            ),
             const SizedBox(height: 20),
-            FloatingHeartsButton(
-              svgPath: 'assets/heart.svg',
-              onTap: () => print('Tapped!'),
-              size: 50,
-              floatingItemCount: 3,
-              animationDuration: Duration(milliseconds: 2000),
-              itemDelay: Duration(milliseconds: 150),
-              animationType: FloatingAnimationType.curve,
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                FloatingHeartsButton(
+                  svgPath: 'assets/heart.svg',
+                  onTap: () => print('Tapped!'),
+                  size: 50,
+                  floatingItemCount: 3,
+                  animationDuration: Duration(milliseconds: 2000),
+                  itemDelay: Duration(milliseconds: 150),
+                  animationType: FloatingAnimationType.curve,
+                ),
+                FloatingHeartsButton(
+                  svgPath: 'assets/Family.svg',
+                  onTap: () => print('Tapped!'),
+                  size: 50,
+                  floatingItemCount: 3,
+                  animationDuration: Duration(milliseconds: 2000),
+                  itemDelay: Duration(milliseconds: 150),
+                  animationType: FloatingAnimationType.curve,
+                ),
+              ],
             ),
+            const SizedBox(height: 90),
             FloatingHeartsButton(
               child: Icon(Icons.favorite, color: Colors.red, size: 50),
               onTap: () => print('Tapped!'),
