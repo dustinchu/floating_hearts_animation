@@ -4,7 +4,7 @@ A Flutter package that provides a beautiful floating hearts animation effect whe
 
 ## Demo
 
-![Floating Hearts Animation Demo](https://raw.githubusercontent.com/dustinchu/floating_hearts_animation/main/screenshots/demo.gif)
+![Floating Hearts Animation Demo](https://github.com/dustinchu/floating_hearts_animation/blob/main/screenshots/demo.gif?raw=true)
 
 ## Features
 
