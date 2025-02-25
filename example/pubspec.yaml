@@ -1,0 +1,29 @@
+name: floating_hearts_animation_example
+description: Example app for the floating_hearts_animation package.
+publish_to: "none" # 防止示例应用被发布到pub.dev
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  floating_hearts_animation:
+    path: ../
+
+  flutter_svg: ^2.0.17
+
+  cupertino_icons: ^1.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
