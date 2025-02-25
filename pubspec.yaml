@@ -1,7 +1,8 @@
 name: floating_hearts_animation
-description: "A new Flutter package project."
-version: 0.0.1
-homepage:
+description: A Flutter package that provides a beautiful floating hearts animation effect when tapped.
+version: 0.0.2
+homepage: https://github.com/dustinchu/floating_hearts_animation
+repository: https://github.com/dustinchu/floating_hearts_animation
 
 environment:
   sdk: ">=3.5.2 <4.0.0"

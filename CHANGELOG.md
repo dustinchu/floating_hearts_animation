@@ -1,3 +1,7 @@
+## 0.0.2
+
+- Added homepage and repository links
+
 ## 0.0.1
 
 - Initial release
